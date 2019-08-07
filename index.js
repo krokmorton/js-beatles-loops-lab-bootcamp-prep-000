@@ -14,12 +14,15 @@ function johnLennonFacts(facts){
    beatlesFacts.push(`${facts[i]}!!!`);
    i++
  }
- return beatlesFacts
+ return beatlesFacts;
 }
 
 function iLoveTheBeatles(n){
   var fan = [];
-  do {fan.push(`I love the Beatles!`); n++}
+  do {
+    fan.push(`I love the Beatles!`); 
+    n++
+  }
   while (n < 15);
-  return fan
+  return fan;
 }
